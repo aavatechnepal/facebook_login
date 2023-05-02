@@ -7,7 +7,7 @@ const database = require ('./database/dbConn');
 const fbData = require ('./models/userSchema');
 const { send } = require('process');
 
-const port = process.env.port || 2000;
+const port = 21000;
 const app = express();
 
 //setting tempalte engine
