@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 1230px;
+}
+
+.fblogo{    
+    width: 30%;
+    margin-left: 111px;
+    margin-top: 68px;   
+    
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: center;
+    align-items: center
+}
+
+.form input{
+    margin-top: 34px;
+    width: 322px;
+    padding: 12px 0px;
+    border-radius: 4px;
+    border: none;
+    background-color: #F5F6F7;
+}
+.form input:focus{
+    padding-left: 34px;
+    
+}
+
+.form input::placeholder{ 
+   padding-left: 12px;
+    font-size: 14px;
+    /* font-weight: bold; */
+}
+
+.loginbtn{
+    margin-top: 34px;
+    padding: 14px 144px;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.forgot{
+    margin-top: 34px;
+    margin-bottom: 13px;
+    color: #1877f2;
+    /* font-weight: bold; */
+}
+.or{
+    margin-bottom: 13px;
+  
+}
+
+.accountbtn{
+    padding: 14px 67px;
+    background: transparent;
+    border: 2px solid #00000033;
+    border-radius: 4px;
+    font-size: 15px;
+   
+}
+
+.footersec{
+    margin-top: 87px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    color: #808080;
+}
+
+.center{
+    text-align: center;
+    margin-top: 25px;
+    color: #808080;
+}
+
+@media screen and (min-width:1880px) {
+    .fblogo{
+        margin-left: 888px;
+        width: 9%;
+    
+    }
+    
+}
+
